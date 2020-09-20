@@ -1,5 +1,5 @@
 import socket
-import socks
+import pip._vendor.urllib3.contrib.socks
 import threading
 import time
 from datetime import datetime

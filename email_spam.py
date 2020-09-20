@@ -1,4 +1,4 @@
-import pip._vendor.requests as requests
+import requests
 import os
 import random
 import string
@@ -8,7 +8,7 @@ import json
 # address the form was sent to
 
 chars = string.ascii_letters + string.digits + '!@#$%^&*()'
-rondom.seed = (os.urandom(1024))
+random.seed = (os.urandom(1024))
 
 target_url = 'http://' # taken from chrome console
 names = json.loads(open('names.json').text())
